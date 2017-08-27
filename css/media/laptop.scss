@@ -1,0 +1,75 @@
+@media screen and (max-width: 992px){
+	.container{
+		width: 730px;
+	}
+
+	.header{
+		margin-bottom: 16px;
+	}
+
+	.sidebar, .filling, .filling__career, .filling__portfolio {
+		float: none;
+		width: 100%;
+		margin-left: 0;
+	}
+
+// Sidebar
+	.sidebar{
+		margin-bottom: 35px;
+	}
+
+	.sidebar_portfolio{
+		margin-bottom: 11px;
+	}
+
+	.menu{
+		text-align: left;
+	}
+
+	.menu__item{
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 25px;
+	}
+
+	.menu__link{
+		padding-right: 0;
+	}
+
+	.menu_link-icon{
+		margin-right: 5px;
+	}
+
+	.menu__item_selected .menu__link {
+		border: none;
+		color: $blue;
+	}
+
+// About
+	.about__left{
+		width: 32%;
+	}
+
+	.about__pic-item {
+		width: 165px;
+		height: 165px;
+	}
+
+	.about__right{
+		width: 66%;
+	}
+
+// Portfolio
+	.portfolio__item{
+		width: 230px;
+	}
+
+	.portfolio__desc{
+		padding: 17px 20px;
+	}
+
+	.portfolio__work-desc{
+		margin-bottom: 11px;
+	}
+
+}

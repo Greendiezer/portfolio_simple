@@ -1,0 +1,76 @@
+@media screen and (max-width: 480px){
+	.container{
+		width: 95%;
+	}
+
+// head
+	.header{
+		margin-bottom: 7px;
+	}
+
+	.header__left{
+		width: 80%;
+	}
+
+	.header__right{
+		width: 20%;
+	}
+
+	.user__name{
+		max-width: 120px;
+		font-size: 14px;
+		margin-left: 14px;
+	}
+
+// Sidebar
+	.sidebar{
+		margin-bottom: 15px;
+	}
+
+	.menu__item{
+		margin-right: 15px;
+	}
+
+	.menu__link{
+		font-size: 14px;
+	}
+
+	.menu_link-icon{
+		display: none;
+	}
+
+// About
+	.about__pic-item{
+		width: 140px;
+		height: 140px;
+	}
+
+	.title{
+		margin-bottom: 3px;
+	}
+
+	.text__block p{
+		font-size: 16px;
+	}
+
+// Portfolio
+	.portfolio__list{
+		margin-left: 0;
+	}
+
+	.portfolio__item{
+		width: 100%;
+		margin-left: 0;
+	}
+
+// Footer
+	.footer__left{
+		padding-top: 12px;
+	}
+
+	.social{
+		padding-top: 5px;
+	}
+
+
+}

@@ -1,0 +1,178 @@
+
+.filling__career {
+    float: right;
+    width: 74.5%;
+    margin-left: 20px;
+}
+
+.title__career{
+	margin-bottom: 25px;
+}
+
+.career__left{
+	width: 220px;
+	float: left;
+}
+
+.career__right{
+	width: 445px;
+	float: right;
+}
+
+
+.career__pic{
+	overflow: hidden;
+	border-radius: 9px;
+
+}
+
+.career__pic-img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.career__item {
+	text-align: right;
+	padding-left: 67px;
+}
+
+
+.career__item:hover .career__block {
+    background: #33c1e3;
+}
+
+.career__item:hover * {
+    color: #fff;
+}
+
+.career__item:hover .career__year {
+    color: #33c1e3;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.career__item:hover .career__year:after {
+    border-color: #94e0f2;
+}
+
+
+.career__block {
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+  width: 380px;
+  padding: 20px;
+  display: inline-block;
+  text-align: left;
+  position: relative;
+  margin-bottom: 25px;
+
+
+  // &:hover {
+  // 	background: $blue;
+  // }
+
+  // &:hover .career__title{
+  // 	color: #fff;
+  // }
+
+  // &:hover .career__occ{
+  // 	color: #fff;
+  // }
+
+  // &:hover .career__time{
+  // 	color: #fff;
+  // }
+
+  // &:hover .career__year{
+  // 	font-weight: 600;
+  // 	color: $blue;
+  // }
+
+  // &:hover .career__year:after{
+  // 	border-color: #94e0f2;
+  // }
+
+}
+
+
+ .career__block:after,
+ .career__block:before {
+  	content: "";
+  	display: block;
+  	width: 1px;
+  	background: #ddd;
+  	position: absolute;
+  	right: 100%;
+  	margin-right: 20px;
+
+ }
+
+
+
+.career__block:before{
+	top: 0;
+	bottom: 50%;
+
+}
+
+.career__block:after{
+	top: 50%;
+	bottom: -25px;
+
+}
+
+
+.career__item:first-child .career__block:before{
+	display: none;
+}
+
+.career__item:last-child .career__block:after{
+	display: none;
+}
+
+
+.career__title {
+	font-size: 21px;
+	color: #5a5a5a;
+	margin-bottom: 5px;
+}
+
+.career__occ,
+.career__time {
+	font-weight: 300;
+	color: $grey;
+	padding-bottom: 5px;
+}
+
+.career__time{
+	margin-bottom: 0;
+	padding: 0;
+}
+// высноной блок с годом
+.career__year {
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	margin-right: 35px;
+	font-size: 14px;
+	color: $grey;
+	line-height: 28px;
+	margin-top: -14px;
+	z-index: 10;
+
+	&:after {
+	content: "";
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: $blue;
+	position: absolute;
+	right: -25px;
+	top: 50%;
+	margin-top: -10px;
+	border: 5px solid $white;
+	}
+}

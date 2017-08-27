@@ -1,0 +1,33 @@
+// Layout vars
+$container-width: 940px;
+$footer-height: 50px;
+
+// Colors
+$grey: #727272;
+$black: #414141;
+$white: #f6f6f6;
+$blue: #33c1e3;
+$red: #e85f61;
+$light-grey: #aeaeae;
+
+//layout
+@import "layout/fonts.scss";
+@import "layout/normalize.scss";
+@import "layout/settings.scss";
+@import "layout/font-awesome.scss";
+
+//Sections
+@import "sections/footer.scss";
+@import "sections/header.scss";
+@import "sections/sidebar.scss";
+@import "sections/content.scss";
+@import "sections/about.scss";
+@import "sections/career.scss";
+@import "sections/portfolio.scss";
+@import "sections/auth.scss";
+
+//media
+@import "media/laptop.scss";
+@import "media/desktop.scss";
+@import "media/tablets.scss";
+@import "media/phones.scss";

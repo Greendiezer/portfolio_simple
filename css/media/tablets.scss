@@ -1,0 +1,130 @@
+@media screen and (max-width: 768px){
+	.container{
+		width: 480px;
+	}
+// header
+	.header__left{
+		width: 70%;
+	}
+
+	.header__right{
+		width: 30%;
+		padding-top: 22px;
+	}
+
+	.contacts:hover .contacts__dropdown{
+		left: auto;
+		transform: translateX(0);
+    	right: 0;
+	}
+
+	.contacts__trigger{
+		background: url("../img/icons/phone.png") center center no-repeat;
+		width: 32px;
+		height: 32px;
+		display: inline-block;
+		font-size: 0;
+		vertical-align: top;
+	}
+
+
+	.contacts__triangle {
+		right: 10px;
+		transform: translateX(0);
+		left: auto;
+	}
+
+	.menu__item{
+		margin-right: 25px;
+	}
+
+// About
+	.about__left, .about__right{
+		float: none;
+		width: 100%;
+	}
+
+	.about__left{
+		margin-bottom: 10px;
+	}
+
+	.title{
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	.about__text{
+		height: 344px;
+	}
+
+	.about__button{
+		text-align: center;
+	}
+
+// Career
+	.career__left, .career__right {
+		width: 100%;
+		float: none;
+	}
+
+	.career__left{
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.title__career{
+		margin-bottom: 18px;
+	}
+
+	.career__pic{
+		display: inline-block;
+	}
+
+	.career__item{
+		padding: 0;
+	}
+
+	.career__block{
+		display: block;
+		width: 100%;
+
+		&:after, &:before{
+			display: none;
+		}
+	}
+
+	.career__title{
+		font-size: 18px;
+	}
+
+	.career__occ, .career__time{
+		font-size: 16px;
+	}
+
+	.career__year{
+		display: none;
+	}
+
+// Portfolio
+	.portfolio__item{
+		width: calc(100% / 2 - 20px);
+	}
+
+
+// Footer
+	.footer{
+		height: 95px;
+		margin-top: -95px;
+	}
+	
+	.footer__right, .footer__left{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+
+	.wrapper:after{
+		height: 95px;
+	}
+}	
